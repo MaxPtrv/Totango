@@ -1,0 +1,10 @@
+image:
+  repository: maximgtoy/weather-app
+  tag: latest
+  pullPolicy: Always
+
+API_KEY: "310a7d37e88d44c78a5111821231511"
+
+elasticsearch:
+  url: "elasticsearch-master.default.svc.cluster.local"
+  port: "9200"

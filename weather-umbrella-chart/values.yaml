@@ -1,0 +1,8 @@
+elasticsearch:
+  replicas: 1
+  esConfig:
+    elasticsearch.yml: |
+      xpack.security.enabled: false
+      xpack.security.http.ssl.enabled: false
+      path.data: /usr/share/elasticsearch/data
+  createCert: false
